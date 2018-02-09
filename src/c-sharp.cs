@@ -1,15 +1,19 @@
 using System;
+using System.Net;
+using System.Net.Sockets;
 
-namespace SSY
+namespace AFC_WS
 {
-	class ssy
+	class WS_REDIS
 	{
-		static int[] array = {10, 20, 30, 40, 50};
+		//byte[] buf = new byte[1024];
+
+		//Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+		//IPEndPoint iep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 6379);
 
 		static void Main(string [] args)
 		{
-			foreach(int i in array)
-				Console.WriteLine(i);
+				Console.WriteLine("测试");
 		}
 	}
 }
